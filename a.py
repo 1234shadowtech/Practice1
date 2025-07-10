@@ -1,3 +1,6 @@
+from b import water
+
+
 def SQr(x):  
     # Function to calculate the square root of x.
     # Note: This will raise a ValueError for negative values of x.
@@ -16,9 +19,10 @@ def SQ(x):
     return x**x  
 
 def car(x):  
+    m=water(x)
     # Function to calculate the integer division of x by 2.
     # The name "car" is not descriptive of the function's purpose.
     # Suggestion: Rename the function to something more descriptive, like "integer_division_by_two".
     # Suggestion: Add type annotations (e.g., def car(x: int) -> int).
     # Note: This function assumes x is an integer. Non-integer inputs may lead to unexpected results.
-    return x//2
+    return m//2
