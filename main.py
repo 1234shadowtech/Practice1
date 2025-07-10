@@ -6,3 +6,4 @@ b=20
 
 print(SQR_ADD(a,b))
 print(custom(a,b))
+print(a,b)
