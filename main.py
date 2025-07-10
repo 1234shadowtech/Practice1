@@ -3,3 +3,4 @@ def SQR_ADD(x,y):
 a=10
 b=20
 print(SQR_ADD(a,b))
+print(SQR_ADD(b,a))
