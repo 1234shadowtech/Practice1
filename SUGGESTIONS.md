@@ -1,7 +1,11 @@
 ### Suggestions for `main.py`
 
-1. **[Low Severity] [Readability]**: The greeting message "HI" could be more descriptive or context-specific, especially if this is part of a larger program.
-2. **[Low Severity] [Consistency]**: The farewell message "bye" should follow consistent capitalization rules. For example, "Bye" would align better with standard capitalization practices.
-3. **[Low Severity] [Scalability]**: If this code is part of a larger project, consider encapsulating the print statements in a function or class for better modularity and reusability.
-4. **[Low Severity] [Localization]**: If this program is intended for international use, consider using a localization library to support multiple languages.
+1. **Severity: Low | Tag: Readability**
+   - Use more descriptive and context-specific messages for better clarity and user experience (e.g., "Hello, welcome to the program!" instead of "HI").
+2. **Severity: Low | Tag: Consistency**
+   - Ensure consistent capitalization in messages (e.g., "Bye" instead of "bye").
+3. **Severity: Medium | Tag: Structure**
+   - If this code is part of a larger project, encapsulate the print statements within a function or class for better organization and maintainability.
+4. **Severity: Low | Tag: Documentation**
+   - Add comments or docstrings to explain the purpose of these messages in the context of the program.
 
