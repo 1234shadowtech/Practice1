@@ -1,3 +1,5 @@
 a=10
 b=20
-print(a+b)
+def ADD(x,y):
+    return x+y
+print(ADD(a,b))
