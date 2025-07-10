@@ -4,4 +4,4 @@ a = 10  # Assigning the value 10 to the variable `a`. Consider using a more desc
 
 # Calling the `SQr` function with `a` as an argument and printing the result.
 # Add error handling to manage potential issues, such as the function not existing, invalid input, or runtime errors.
-print(SQr(a))
+print(SQr(a))  # Ensure that the `SQr` function performs the intended operation (e.g., square root, square, etc.).
