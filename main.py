@@ -1,4 +1,3 @@
-from a import SQr , SQ
+from a import SQr
 a=10
 print(SQr(a))
-print(SQ(a))
