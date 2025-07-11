@@ -1,2 +1,2 @@
-def SQR(a):
-    return a**4
+def SQR(a):  # Function name is misleading and does not follow PEP 8 naming conventions.
+    return a**4  # This calculates the fourth power of 'a', not the square.
