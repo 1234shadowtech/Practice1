@@ -1,25 +1,22 @@
 ### Suggestions for `a.py`
 
-1. **Severity: High | Tag: Function Naming Convention**  
-   - Function names should follow the PEP 8 naming convention, which recommends using lowercase with words separated by underscores (e.g., `add` and `sub` instead of `ADD` and `SUB`).
+1. **Severity: Low | Tag: Naming Conventions**  
+   - The function names `ADD` and `SUB` are in uppercase, which does not follow PEP 8 naming conventions. Function names should be in lowercase with words separated by underscores (e.g., `add`, `sub`).
 
-2. **Severity: Medium | Tag: Function Behavior**  
-   - The `SUB` function's behavior is unconventional. Typically, subtraction is expected to be `a - b`, but here it is implemented as `b - a`. This could lead to confusion for users of the function.
+2. **Severity: Medium | Tag: Logic/Clarity**  
+   - The `SUB` function subtracts `a` from `b` (`b - a`), which is unconventional and may confuse users. Typically, subtraction functions are expected to return `a - b`. If this behavior is intentional, it should be clearly documented.
 
-3. **Severity: Low | Tag: Code Readability**  
-   - The code lacks docstrings or comments explaining the purpose of the functions. Adding docstrings would improve code readability and maintainability.
+3. **Severity: Low | Tag: Documentation**  
+   - The functions lack detailed docstrings. Adding docstrings would improve code readability and help users understand the purpose and behavior of the functions.
+
+4. **Severity: Low | Tag: Readability**  
+   - The code could benefit from consistent spacing and formatting to improve readability.
+
+---
 
 ### Suggestions for `b.py`
 
-1. **Severity: High | Tag: Functionality**  
-   - The function name `SQR` is misleading. It implies that the function calculates the square of a number, but it actually calculates the fourth power (`a**4`). This can lead to confusion for anyone using the function.
-
-2. **Severity: Medium | Tag: Naming Convention**  
-   - The function name `SQR` does not follow Python's PEP 8 naming conventions. Function names should be in lowercase with words separated by underscores (e.g., `calculate_fourth_power`).
-
-3. **Severity: Low | Tag: Readability**  
-   - The code lacks a docstring or comments explaining what the function does. Adding a brief explanation would improve code readability and maintainability.
-
-4. **Severity: Low | Tag: Testing**  
-   - There is no accompanying test or example usage to verify the correctness of the function.
+1. **[High Severity] [Naming Convention]**: The function name `SQR` is misleading as it implies the function calculates the square of a number, but it actually calculates the fourth power. Rename the function to something more descriptive, such as `fourth_power` or `power_four`.
+2. **[Medium Severity] [PEP 8 Compliance]**: The function name `SQR` does not follow PEP 8 naming conventions for function names, which recommend using lowercase letters with words separated by underscores (e.g., `fourth_power`).
+3. **[Low Severity] [Documentation]**: The function lacks a docstring to explain its purpose and behavior. Adding a docstring would improve code readability and maintainability.
 
