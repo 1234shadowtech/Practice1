@@ -1,3 +1,3 @@
 def water(x):  
-    m = x * x  *x
+    m = x * x 
     return m  
