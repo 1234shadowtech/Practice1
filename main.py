@@ -1,7 +1,18 @@
-from a import SQr, SQ, car  # Importing three functions from module 'a'. Ensure the module 'a' exists and these functions are defined properly.
+from operations.basic import add, subtract
+from operations.advanced import multiply, power
+from utilities.validator import is_positive, is_even
 
-a = 10  # Defining a variable 'a' with the value 10. Consider using a more descriptive name, such as 'input_value' or 'number_to_process'.
+def main():
+    a = 5
+    b = 3
+    
+    print(f"{a} + {b} = {add(a, b)}")
+    print(f"{a} - {b} = {subtract(a, b)}")
+    print(f"{a} * {b} = {multiply(a, b)}")
+    print(f"{a}^{b} = {power(a, b)}")
+    
+    print(f"Is {a} positive? {is_positive(a)}")
+    print(f"Is {b} even? {is_even(b)}")
 
-print(SQr(a))  # Calling the function 'SQr' with 'a' as an argument. Ensure 'SQr' is defined and works as expected. Add comments to explain what 'SQr' does (e.g., square root calculation?).
-print(SQ(a))  # Calling the function 'SQ' with 'a' as an argument. Ensure 'SQ' is defined and works as expected. Add comments to explain what 'SQ' does (e.g., squaring the number?).
-print(car(a))  # Calling the function 'car' with 'a' as an argument. Ensure 'car' is defined and works as expected. Add comments to explain what 'car' does (e.g., some transformation or calculation?).
+if __name__ == "__main__":
+    main()
