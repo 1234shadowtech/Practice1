@@ -1,5 +1,4 @@
 def add(a, b):  
-    return a + b  # Suggest adding type hints and a docstring for clarity.  
-
+    return a + b +1 
 def subtract(a, b):  
-    return a - b  # Suggest adding type hints and a docstring for clarity.
+    return a - b  
