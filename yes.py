@@ -1,2 +1,4 @@
 def loop(x):
-    return x*x*3.14
+    m= x*3.14
+    
+    return m%2
