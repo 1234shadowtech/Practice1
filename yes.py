@@ -1,4 +1,2 @@
 def loop(x):
-    for i in range(x):
-        n+=i
-    return n
+    return x*x*3.14
