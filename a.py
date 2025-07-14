@@ -4,4 +4,5 @@ def sqr(x):
     return x*x  # Function to calculate the square of `x`. Consider renaming to `square` for clarity and better readability.
 
 def small(x):  
-    return special(x)//2  # Function to process `x` using the `special` function and perform integer division by 2. Ensure integer division (`//`) is intentional and not a mistake.
+    return special(x)//2  # Function to process `x` using the `special` function and perform integer division by 2. 
+                          # Ensure integer division (`//`) is intentional and not a mistake.
