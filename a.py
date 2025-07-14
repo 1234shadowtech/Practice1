@@ -1,2 +1,2 @@
-def SSqr(x):
-    return x*x**0.5
+def SSqr(x):  # Function to calculate the square root of a number (but the formula is incorrect)
+    return x*x**0.5  # This incorrectly multiplies x by the square root of x instead of returning the square root of x
