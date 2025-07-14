@@ -11,21 +11,19 @@ def calculate_square_root_ratio(x: float) -> float:
     Raises:
         ValueError: If the input is negative, NaN, or infinity.
     """
+    import math  # Import math module for `isfinite` function.
+
+    # Validate that the input is a float or can be converted to a float.
+    if not isinstance(x, (int, float)):
+        raise ValueError(f"Input must be a number (int or float). Received: {type(x).__name__}")
+
+    # Use `math.isfinite` to check for NaN and infinity in a single step.
+    if not math.isfinite(x):  
+        raise ValueError(f"Input must be a finite, non-negative number. Received: {x}")
+
     # Check if the input is negative; raise an error with a clear message.
     if x < 0:  
         raise ValueError(f"Input must be a non-negative number. Received: {x}")  
     
-    # Check if the input is NaN (not a number); raise an error for invalid input.
-    if x != x:  # NaN is not equal to itself.
-        raise ValueError("Input must be a finite, non-negative number. Received: NaN")
-    
-    # Check if the input is infinity; raise an error for invalid input.
-    if x == float('inf'):  
-        raise ValueError("Input must be a finite, non-negative number. Received: Infinity")
-    
-    # Return 0.0 explicitly for the special case where x is zero.
-    if x == 0:  
-        return 0.0  
-    
-    # Return 1.0 for all positive values of x.
-    return 1.0
+    # Return 0.0 for the special case where x is zero; otherwise, return 1.0.
+    return 0.0 if x == 0 else 1.0  # Simplified return logic.
