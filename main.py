@@ -1,8 +1,8 @@
 from first import sqr
 from second import super,s
 
-a=10
+b=10
 
-print(sqr(a))
-print(super(a))
-print(s(a))
+print(sqr(b))
+print(super(b))
+print(s(b))
