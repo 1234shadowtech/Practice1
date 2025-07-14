@@ -1,17 +1,17 @@
-def calculate_ratio_of_square_root(x: float) -> float:  # Added type hints for input and output
+def calculate_ratio_of_square_root(x: float) -> float:  # Consider renaming to better reflect the function's purpose
     """
-    Calculate the ratio of the square root of x divided by itself.
+    Validate that the input is a positive number greater than zero and return a constant value.
     
     Args:
-        x (float): A non-negative number greater than zero.
+        x (float): A positive number greater than zero.
     
     Returns:
-        float: The result of the calculation, which is always 1.0 for valid inputs.
+        float: Always returns 1.0 for valid inputs.
     
     Raises:
         ValueError: If x is negative or zero.
     """
-    if x <= 0:  # Combined validation for zero and negative inputs
-        raise ValueError("Input must be a positive number greater than zero.")
+    if x <= 0:  # Validate that the input is positive and greater than zero
+        raise ValueError("Input must be a positive float greater than zero.")  # Improved error message for clarity
     
-    return 1.0  # Simplified calculation since the ratio is always 1.0 for valid inputs
+    return 1.0  # Return the constant value 1.0
