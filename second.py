@@ -1,5 +1,6 @@
-from first import sq, sqr  # Importing `sq` and `sqr` functions from the `first` module. Ensure these functions are defined and work as expected.
+from first import sq, sqr  # Importing `sq` (square function) and `sqr` (square root function) from the `first` module.
 
-def special(x):  # Defining the `special` function, which takes one argument `x`.
-    # Calculate the difference between the square (`sq(x)`) and square root (`sqr(x)`) of `x`, multiply by 2, and return the result.
-    return (sq(x) - sqr(x)) * 2  # Returning the result of `(sq(x) - sqr(x)) * 2`.
+def special(x):  # Defining the `special` function, which calculates a specific mathematical operation on `x`.
+    # Calculate the difference between the square of `x` (`sq(x)`) and the square root of `x` (`sqr(x)`).
+    # Multiply the result by 2 and return it.
+    return (sq(x) - sqr(x)) * 2  # Returning the result of the mathematical operation.
