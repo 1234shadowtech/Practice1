@@ -3,3 +3,6 @@ def sq(x):
 
 def sqr(x):
     return x**0.5
+
+def div(x):
+    return x%2
