@@ -1,7 +1,7 @@
 ### Suggestions for `main.py`
 
-- **IMPROVEMENT:** Add type hints to the function definitions for better readability and maintainability (e.g., `def sqr(x: int) -> int:`).
-- **STYLE:** Use consistent spacing around operators for better readability (e.g., `return x * x` instead of `return x*x`).
-- **POTENTIAL ISSUE:** The `mod` function is defined but not used. Consider removing it if unnecessary or adding a call to demonstrate its purpose.
-- **STYLE:** Variable `a` could have a more descriptive name, such as `input_value`, to improve code clarity.
+- **IMPROVEMENT:** Add type hints to the function definitions for better readability and to ensure type safety. For example, `def sqr(x: int) -> int:` and `def mod(x: int) -> int:`.
+- **STYLE:** Use consistent spacing around operators for better readability. For example, `return x * x` instead of `return x*x` and `return x % 10` instead of `return x%10`.
+- **IMPROVEMENT:** Add docstrings to the functions instead of inline comments to adhere to Python's best practices for documenting code.
+- **POTENTIAL ISSUE:** The variable `a` is hardcoded. Consider making the code more dynamic by allowing user input or passing `a` as an argument to a higher-level function.
 

@@ -12,4 +12,5 @@ a=10
 print(sqr(a))  
 # Printing the square of 'a' by calling the sqr function
 
-print(mod(a))
+print(mod(a))  
+# Printing the remainder of 'a' divided by 10 by calling the mod function
