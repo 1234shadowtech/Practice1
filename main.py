@@ -8,3 +8,4 @@ b = 20  # Assigning the value 20 to variable 'b'
 print(s(a))  # Calling the 's' function with 'a' as an argument and printing the result
 print(substract(b, a))  # Calling the 'substract' function with 'b' and 'a' as arguments and printing the result
 print(Sqr_mul(b,a))
+print(Sqr_mul(a,b))
