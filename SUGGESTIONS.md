@@ -1,8 +1,8 @@
 ### Suggestions for `main.py`
 
-- **IMPROVEMENT:** The `sqr` function could be renamed to `square` for better readability and alignment with Python's naming conventions.
-- **IMPROVEMENT:** Add type hints to the function definitions to improve code clarity and maintainability (e.g., `def sqr(x: int) -> int:`).
-- **STYLE:** The variable `a` could be renamed to something more descriptive, such as `number` or `input_value`, to enhance code readability.
-- **STYLE:** Add a space around the assignment operator in `a=10` to follow PEP 8 style guidelines (`a = 10`).
-- **POTENTIAL ISSUE:** The `mod` function is defined but not used in the provided code. Consider removing it if unnecessary or adding usage to demonstrate its purpose.
+- **IMPROVEMENT:** The function `sqr` could benefit from a more descriptive name, such as `square`, to improve readability and clarity.
+- **IMPROVEMENT:** The function `mod` could also use a more descriptive name, such as `modulus_with_2` or `is_odd`, depending on its intended use.
+- **STYLE:** Add spaces around operators (`*` and `%`) to improve code readability, as per PEP 8 guidelines.
+- **STYLE:** The variable `a` could be renamed to something more descriptive, such as `input_value`, to make the code more self-explanatory.
+- **POTENTIAL ISSUE:** The `mod` function is defined but not used in the provided code. If it is not needed, consider removing it to avoid confusion.
 
