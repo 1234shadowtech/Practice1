@@ -6,7 +6,10 @@ def mod(x):
     # Function to calculate the remainder when a number is divided by 10  
     return x%10  
 
-a=10  
+def floor(x):
+    return x//10
+
+a=20
 # Assigning the value 10 to variable 'a'  
 
 print(sqr(a))  
