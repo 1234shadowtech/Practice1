@@ -17,3 +17,5 @@ print(sqr(a))
 
 print(mod(a))  
 # Printing the remainder of 'a' divided by 10 by calling the mod function
+
+print(floor(x))
