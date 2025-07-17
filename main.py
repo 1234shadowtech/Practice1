@@ -7,3 +7,5 @@ def mod(x):  # Function to calculate the modulus of a number with 2
 a=20  # Variable holding the number to be squared
 
 print(sqr(a))  # Prints the square of the variable 'a'
+
+print(mod(a))
