@@ -6,4 +6,4 @@ def mod(x):
 
 a=10
 
-print(sqr(a))
+print(mod(a))
