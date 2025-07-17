@@ -9,3 +9,6 @@ def mod(x):
 
 def flo(x):
     return x//2
+
+def sup_mul(x):
+    return (x**x)+(x**x)
