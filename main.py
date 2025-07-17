@@ -11,3 +11,4 @@ b=20
 print(mod(a))  # Prints the result of the `mod` function when called with `a` as the argument.
 print(sqr(b))
 print(special(a,b))
+print("hi")
