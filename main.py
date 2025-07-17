@@ -1,10 +1,13 @@
-def sqr(x):
-    return x*x
+def sqr(x):  
+    # Function to calculate the square of a number  
+    return x*x  
 
-def mod(x):
-    return x%10
+def mod(x):  
+    # Function to calculate the remainder when a number is divided by 10  
+    return x%10  
 
+a=10  
+# Assigning the value 10 to variable 'a'  
 
-a=10
-
-print(sqr(a))
+print(sqr(a))  
+# Printing the square of 'a' by calling the sqr function
