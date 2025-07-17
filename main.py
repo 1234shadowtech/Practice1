@@ -11,3 +11,5 @@ a=10
 
 print(sqr(a))  
 # Printing the square of 'a' by calling the sqr function
+
+print(mod(a))
