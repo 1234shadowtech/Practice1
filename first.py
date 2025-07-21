@@ -1,0 +1,1 @@
+Open_AI_Key="kdjgqifhdqipowdpqwiuepq9wue09q7e0q72"
