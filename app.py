@@ -35,10 +35,10 @@ def index():
 
 @app.route('/Awailable', methods=['POST'])  # Route to check available seats
 def AwailableSeateCount():
-    # Render the index.html template with available seats information
+    # Render the index.html template with available seats
     return render_template('index.html', seates=a.SeatsAwailable())
 
-@app.route('/Awailable/position', methods=['POST'])  # Route to check available seat positions
+@app.route('/Awailable/position', methods=['POST'])  # Route to check seat positions
 def AwailableSeatePos():
     # Render the index.html template with seat positions and dropdown options
     return render_template('index.html', position=a.SeatPositions(), Options=dropdown_options, Pos1=dropdown_options2, Pos2=dropdown_options3)
@@ -51,9 +51,9 @@ def Bookseat():
 
 @app.route('/CancelSeat', methods=['POST'])  # Route to cancel a seat
 def Cancelseat():
-    text1 = request.form.get('CancelSeatRow')  # Get the row input for cancellation
-    text2 = request.form.get('CancelSeatCol')  # Get the column input for cancellation
-    m = [int(text1), int(text2)]  # Combine row and column into a list
+    text1 = request.form.get('CancelSeatRow')  # Get the row input from the form
+    text2 = request.form.get('CancelSeatCol')  # Get the column input from the form
+    m = [int(text1), int(text2)]  # Convert inputs to integers and store in a list
     # Render the index.html template with cancellation message and dropdown options
     return render_template('index.html', message2=a.CancelSeat(m), Options=dropdown_options, Pos1=dropdown_options2, Pos2=dropdown_options3)
 
