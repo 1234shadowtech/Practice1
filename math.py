@@ -6,3 +6,6 @@ def div(x):
 
 def mod(x):
   return x%2
+
+def sq(x):
+  return x**x
