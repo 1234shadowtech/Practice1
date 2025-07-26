@@ -1,15 +1,15 @@
 def sqr(x):
     return x**0.5
 
-de fool(x):
+def fool(x):
     return x//2
 
-def mod(x):
+de mod(x):
     return x%2
 
 
 a=10
 
-print(sqr(a))
+print(sqr(x))
 print(fool(a))
-print(mod(x))
+print(mod(a))
