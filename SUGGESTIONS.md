@@ -1,8 +1,8 @@
 ### Suggestions for `app.py`
 
-- `BUG:` The function `sqr` is incorrectly named. Based on its implementation (`x**0.5`), it calculates the square root, not the square. Consider renaming it to `sqrt` for clarity.
-- `STYLE:` Use consistent naming conventions for functions. For example, `fool` could be renamed to something more descriptive like `halve_integer`.
-- `IMPROVEMENT:` Add type hints to the function definitions to improve code readability and maintainability. For example, `def sqr(x: float) -> float`.
-- `IMPROVEMENT:` Add docstrings to each function to explain their purpose and expected input/output.
-- `IMPROVEMENT:` Consider handling edge cases, such as negative numbers in `sqr`, which will result in complex numbers.
+- `BUG:` Rename the `sqr` function to something more descriptive, like `sqrt`, to reflect its actual behavior (calculating the square root).
+- `STYLE:` Add proper spacing around operators and after commas for better readability (e.g., `a = 10` instead of `a=10`).
+- `STYLE:` Use consistent naming conventions for functions and variables. For example, `sqr` and `div` could be renamed to `calculate_square_root` and `divide_by_two` for clarity.
+- `IMPROVEMENT:` Add type hints to the function definitions to improve code readability and maintainability.
+- `IMPROVEMENT:` Include docstrings for the functions to explain their purpose and expected input/output.
 
