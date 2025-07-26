@@ -1,11 +1,12 @@
 def sqr(x):
     return x**0.5
 
-def fool(x):
+de fool(x):
     return x//2
 
-de mod(x):
+def mod(x):
     return x%2
+
 
 a=10
 
