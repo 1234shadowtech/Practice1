@@ -4,7 +4,7 @@
 from flask import Flask, render_template,request
 
 
-from train import Train
+from train import Train , speak
 
 app=Flask(__name__)
 a=Train()
@@ -28,7 +28,7 @@ dropdown_options3 = [
     ]
 @app.route('/')#base url
 def index():
-    
+    speak()
     return render_template('index.html', Options=dropdown_options,Pos1=dropdown_options2,Pos2=dropdown_options3)
 
 

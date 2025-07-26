@@ -43,3 +43,5 @@ class Train:
     def SeatPositions(self):
        return self.Seats
                
+def speak():
+    print("Thank you")
