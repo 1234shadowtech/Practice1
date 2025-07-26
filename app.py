@@ -1,10 +1,10 @@
 def sqr(x):
     return x**0.5
 
-def dev(x):
+de dev(x):
     return x%2
 
-de fool(x):
+def fool(x):
     return 
 
 a=10
