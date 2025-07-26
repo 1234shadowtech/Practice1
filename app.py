@@ -1,7 +1,7 @@
-de sqr(x):
+def sqr(x):
     return x**0.5
 
-def dev(x):
+de dev(x):
     return x%2
 
 def fool(x):
