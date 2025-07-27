@@ -1,1 +1,8 @@
-print("Hi Welcome")  # Outputs a greeting message to the console. Consider using logging for more robust applications.
+print("Hi whats Up")
+
+def Sq(x:int)->int:
+    return x*x
+
+a=10
+
+print(Sq(a))
