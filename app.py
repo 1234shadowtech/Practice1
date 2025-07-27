@@ -1,13 +1,1 @@
-def sqr(x):
-    return x**0.5
-
-def dev(x):
-    return x%2
-
-def fool(x):
-    return x//2
-
-a=10
-
-print(sqr(a))
-print(dev(a))
+print("Hi Welcome")
