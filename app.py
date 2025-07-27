@@ -1,7 +1,9 @@
-print("hi, welcome")  # Prints a welcome message to the console.
+print("hi, welcome")  
+def Sq(x: int)->int: 
+    return x * x 
 
-def Sq(x: int):  # Function to calculate the square of a number. Consider renaming to 'square'.
-    return x * x  # Returns the square of the input number.
+def Sqr(x:int)->int:
+    return x**0.5 +1
 
-a = 10  # Initializes variable 'a' with the value 10.
-print(Sq(a))  # Calls the 'Sq' function with 'a' and prints the result.
+a = 10  
+print(Sq(a))  
