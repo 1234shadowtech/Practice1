@@ -1,2 +1,2 @@
-def Sqr(y:int):
-    return y*y
+def Sqr(x:int):
+    return x*x
