@@ -1,5 +1,7 @@
-from first import Special_Add
+print("hi, welcome")
 
-print("Hi welcom")
-b=10
-print(Special_Add(b))
+def Sq(x:int):
+    return x*x
+
+a=10
+print(Sq(a))
