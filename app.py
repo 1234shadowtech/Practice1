@@ -1,1 +1,1 @@
-print("Hi Welcome")
+print("Hi Welcome")  # Outputs a greeting message to the console. Consider using logging for more robust applications.
