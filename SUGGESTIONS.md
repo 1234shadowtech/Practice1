@@ -1,7 +1,8 @@
 ### Suggestions for `app.py`
 
-- **STYLE:** The function name `Sq` could be more descriptive. Consider renaming it to `square` for better readability and adherence to Python naming conventions.
-- **STYLE:** Add a docstring to the `Sq` function to describe its purpose and expected input/output.
-- **IMPROVEMENT:** The variable `a` is defined without context. Consider adding a comment or renaming it to something more meaningful, like `number_to_square`.
-- **IMPROVEMENT:** Type hints are used in the function definition, which is good practice. However, consider adding runtime validation for the input type to ensure robustness.
+- **STYLE:** The function name `Sq` is not descriptive. Consider renaming it to something more meaningful, like `square` or `calculate_square`, to improve readability.
+- **STYLE:** Add a docstring to the function `Sq` to describe its purpose and expected input/output.
+- **IMPROVEMENT:** Include type hints for the return value of the function `Sq`. For example, `def Sq(x: int) -> int:`.
+- **IMPROVEMENT:** Add input validation to the function `Sq` to ensure it handles unexpected inputs gracefully (e.g., non-integer values).
+- **IMPROVEMENT:** Consider using a main function or entry point (`if __name__ == "__main__":`) to structure the script better for scalability and readability.
 
