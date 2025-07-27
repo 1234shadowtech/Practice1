@@ -6,4 +6,5 @@ def Sqr(x:int)->int:
     return x**0.5
 
 a = 10  
-print(Sq(a))  
+print(Sq(a)) 
+print(Sqr(a)) 
