@@ -1,7 +1,9 @@
 ### Suggestions for `app.py`
 
-- **STYLE:** The function names `Sq` and `Sqr` are not descriptive enough. Consider renaming them to `square` and `square_root` for better readability and clarity.
-- **IMPROVEMENT:** Add type hints for the return type of `Sqr`. While `int` is specified, the function actually returns a `float` due to the square root operation. Update the type hint to `float`.
-- **IMPROVEMENT:** Include docstrings for the functions to explain their purpose and expected input/output.
-- **STYLE:** Add spacing between functions for better readability and adherence to PEP 8 guidelines.
+- **STYLE:** Rename function `Sq` to `square` for better readability and adherence to Python naming conventions.
+- **STYLE:** Rename function `Sqr` to `square_root` for better readability and adherence to Python naming conventions.
+- **IMPROVEMENT:** Add input validation in the `Sqr` function to handle negative numbers, as taking the square root of a negative number can lead to unexpected behavior.
+- **IMPROVEMENT:** Use `math.sqrt` in the `Sqr` function for better precision and clarity, as it is the standard library function for square root calculations.
+- **STYLE:** Add type hints for the return type of `Sq` and `Sqr` functions in the docstrings for consistency and clarity.
+- **STYLE:** Add comments explaining why certain choices (e.g., using `x**0.5` instead of `math.sqrt`) were made, if applicable.
 
