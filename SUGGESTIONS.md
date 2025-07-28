@@ -1,5 +1,4 @@
 ### Suggestions for `app.py`
 
-- **STYLE:** Consider adding a newline between the two `print` statements for better readability in the code.
-- **IMPROVEMENT:** If this is part of a larger program, ensure that the output aligns with the intended user experience or logging format.
+- `STYLE:` The string "whats Up" should follow proper capitalization and punctuation for consistency. Consider changing it to "What's up" for better readability and adherence to standard writing conventions.
 
